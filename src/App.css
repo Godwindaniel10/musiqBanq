@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.main-h1 {
+    color: red;
+}
+.trans {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+/* Home Valley */
+
+.header-container {
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  padding: 100px;
+ /* background-image: linear-gradient(to left, #266833 , #191A19);*/
+background-image: linear-gradient( to right,
+  rgba(0, 0, 0, 0.863), 
+  rgba(0, 0, 0, 0.164)
+), url("./images/5681326.jpg");
+ background-position: center;
+ background-size: cover;
+}
+.zone1 {
+  width: 420px;
+  height: 500px;
+}
+.zone1 h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.zone1 p {
+  color: rgb(209, 209, 209);
+  margin-top: 2rem;
+  line-height: 25px;
+  font-size: 18px;
+  width: 350px;
+}
+.zone1 h1 span {
+  background: -webkit-linear-gradient(#3ea176, #B2EA70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.zone1 .btn-zone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  width:320px;
+}
+.zone1 .btn-zone > .btn1 {
+  color: #000;
+  background-image: linear-gradient(#3ea176, #B2EA70);
+  padding: 14px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+ 
+}
+.zone1 .btn-zone > .btn2 {
+  color: rgb(255, 255, 255);
+  border: 2px solid #3ea176;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.zone2 {
+  width: 100%;
+  height: 500px;
+  margin-left: 100px;
+}
+
+
+
+/* Transaction zone */
+
+.transaction-header-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .transaction-header-container .base1 {
+    width: 100%;
+    height: 900px;
+    background-image: url("https://images.pexels.com/photos/1876279/pexels-photo-1876279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .transaction-header-container .base2 {
+    width: 850px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(214, 214, 214, 0.247);
+  }
+  .phone-ui {
+    width: 400px;
+    height: 800px;
+    border-radius: 50px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background: #fff;
+    overflow-y: scroll;
+  }
+
+
+
+  .fund-balance , .slide-2, .slide-3{
+    background-image:
+    linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ), url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/music-pattern-black-and-gold-lioudmila-perry.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+ 
+  .fund-balance .ab , .slide-2 .ab, .slide-3 .ab{
+    color: rgb(236, 235, 235);
+  }
+  .fund-balance .amount , .slide-2 .amount, .slide-3 .amount{
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #fff;
+  }
+  .fund-balance .acc-num , .slide-2 .acc-num , .slide-3 .acc-num  {
+    font-size: 12.5px;
+    margin-top: 0.5rem;
+    color: rgb(236, 235, 235);
+  }
+  .fund-balance .acc-num .acc-number, .slide-2 .acc-num .acc-number, .slide-3 .acc-num .acc-number {
+    font-size: 13.5px;
+    margin-left: 3.5px;
+    color: #fff;
+  }
+ 
+  .fund-balance .add-money , .slide-2 .add-money, .slide-3 .add-money{
+    color: rgb(255, 255, 255);
+    background:rgba(0, 0, 0, 0.651);
+    padding: 12px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(112, 25, 25);
+  }
+  .fund-balance .send-money , .slide-2 .send-money, .slide-3 .send-money {
+    color: rgb(255, 255, 255);
+    background:rgba(0, 0, 0, 0.651);
+    padding: 12px 22px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(112, 25, 25);
+  }
+  .fund-balance .buttons , .slide-2 .buttons, .slide-3 .buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .dot-container {
+    width: 70px;
+    height: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .dot1 {
+    background: rgb(112, 25, 25);
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin: 0 auto;
+  }
+  
+
+  /*.slide-container {
+    display: flex;
+  }*/
+  .slide-2, .slide-3 {
+    display: none;
+  }
+
+
+  /* music chart */
+.musicChartContainer {
+ /* border: 2px solid #000;*/
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+}
+.musicChartContainer .m1 {
+  box-shadow: rgba(99, 99, 99, 0.459) 0px 2px 2px 0px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+.musicChartContainer .MC {
+  text-align: center;
+  font-size: 30px;
+}
+.songImage {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://images.genius.com/6a5b031256336b4ea544381f0bb3f407.1000x1000x1.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage2 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://static.qobuz.com/images/covers/0a/x7/silh4klo1x70a_230.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage3 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://i1.sndcdn.com/artworks-lz0U3xvEvuKu2Wzy-1xuoPQ-t500x500.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage4 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://upload.wikimedia.org/wikipedia/en/2/27/Wizkid_-_Essence_%28remix%29.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage5 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://i1.sndcdn.com/artworks-0GpzEbPTmB8yaSEf-tTFDuA-t500x500.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage6 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://www1.beatzjam.com/wp-content/uploads/2021/10/Crazy-tinz-img.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage7 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://i2.wp.com/www.naijahubies.com/wp-content/uploads/2021/10/TIMAYA-1.jpeg?fit=262%2C300&ssl=1");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage8 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://i.ytimg.com/vi/Wp7TTlOubGY/maxresdefault.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage9 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://naijafindmp3.com/wp-content/uploads/IMG_20210609_194115.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songImage10 {
+  width: 70px;
+  height: 70px;
+  background-image:
+ url("https://i.ytimg.com/vi/22iWvuAqoeQ/maxresdefault.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+}
+.songInfo {
+  width: 200px;
+  height: 70px;
+  position:relative;
+}
+.songTitle {
+  width: 100%;
+  height: 25px;
+  font-weight: 600;
+}
+.btnsContainer {
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playBtn {
+  height: auto;
+  font-size: 13px;
+  text-align: center;
+}
+.downloadBtn {
+  height: auto;
+  text-align: center;
+  font-size: 13px;
+}
+.infoBtn {
+  height: auto;
+  text-align: center;
+}
+
+
+
+
+/* landing page */
+.landingPageContainer {
+  width: 100%;
+  height: 130vh;
+  padding: 0 120px;
+}
+.navBarContainer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBarContainer .logo {
+  color: rgb(105, 25, 25);
+  height: 50px;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.navBarContainer .signUpButton {
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(rgb(136, 17, 17), #000);
+  color: rgb(255, 255, 255);
+}
+.mainPageContainer {
+  width: 100%;
+  height: 80vh;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 0.4fr;
+  grid-gap: 50px;
+}
+.mainPageContainer .z1 {
+  width: 100%;
+  height: auto;
+  padding-top: 3rem;
+}
+.mainPageContainer .z2 {
+  width: 100%;
+  height: 80vh;
+  border-radius: 200px;
+  background-image: url(./images/pic4.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid rgb(134, 15, 15);
+}
+.mainPageContainer .z3 {
+  width: 100%;
+  height: 80vh;
+  border-radius: 200px;
+  background-image: url(./images/pic5.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 10px solid rgb(134, 15, 15);
+}
+
+
+.boxText {
+  font-size: 15px;
+  font-weight: bold;
+}
+.z1 .p1 {
+  font-size: 40px;
+  color:rgb(0, 0, 0);
+  font-weight: bolder;
+  line-height: 60px;
+  font-family: 'EB Garamond', serif;
+  padding-bottom: 2rem;
+}
+.z1 .p2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(48, 48, 48);
+  margin-bottom: 4rem;
+}
+.z1 span {
+  background: -webkit-linear-gradient(#3ea176, #B2EA70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.z1 .signUpButton {
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 12px 60px;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(rgb(136, 17, 17), #000);
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(32, 139, 18, 0);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: rgb(112, 25, 25);
+  outline: 1px solid rgba(112, 128, 144, 0);
+  border-radius: 50px;
+}
