@@ -6,9 +6,13 @@ const LandingPage = () => {
         <>
             <div className="landingPageContainer">
                 <div className="navBarContainer">
-                    <div className="logo">MusiQBanQ</div>
-                    <Link exact to="/SignUp" className="signUpButton">Sign up</Link>
+                    <div className="logo text-pop-up-bottom ">MusiQBanQ</div>
+                    <div>
+                       <Link exact to="/SignUp" className="loginButton">Log-in</Link>
+                       <Link exact to="/SignUp" className="signUpButton">Sign up</Link>
+                    </div>
                 </div>
+             
                 <div className="mainPageContainer">
                     <div className="z1">
                        
@@ -41,8 +45,7 @@ const LandingPage = () => {
                         <Link exact to="/SignUp" className="signUpButton">Sign up</Link>
                     </div>
                     <div className="z2">
-                        <div className="pattern1"></div>
-                        <div className="pattern2"></div>
+                        
                     </div>
                     <div className="z3">
                     <div className="pattern3"></div>
