@@ -98,7 +98,11 @@ background-image: linear-gradient( to right,
   .transaction-header-container .base1 {
     width: 100%;
     height: 900px;
-    background-image: url("https://images.pexels.com/photos/1876279/pexels-photo-1876279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ), url(./images/pic7.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -790,6 +794,75 @@ background-image: linear-gradient( to right,
 
 
 
+/* trans history */
+
+.transactionHistoryone {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 25px;
+  display: none;
+  padding: 20px;
+}
+.transactionHistoryone .transMadeContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.transactionHistoryone .transMade {
+  width: 100%;
+  height: 70px;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 0.2fr 1.5fr 0.7fr;
+  grid-gap: 15px;
+}
+.transactionHistoryone .transMade .imgg {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.transactionHistoryone .transMade .transId {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.transactionHistoryone .transMade .transId .ids {
+  font-size: 13px;
+  font-weight: 900;
+}
+.transactionHistoryone .transMade .transId .date{
+  font-size: 11.5px;
+  font-weight: 900;
+  color: #999;
+}
+.transactionHistoryone .transMade .transAmount {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 11.5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+}
+.transactionHistoryone .transHeaderr {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.transactionHistoryone .transHeaderr p {
+  font-weight: bold;
+}
+.transactionHistoryone .transHeaderr .thp {
+  color: rgb(66, 66, 66);
+}
+.transactionHistoryone .transHeaderr .thp2 {
+  border-bottom: 1px solid #000;
+}
 
 
 

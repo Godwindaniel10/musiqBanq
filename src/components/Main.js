@@ -4,7 +4,27 @@ import {Link} from "react-router-dom";
 const Main = () => {
 
 
-   
+     function sayHello() {
+
+        const musicCha = document.getElementById("musicChartContainer");
+        musicCha.style.display = "none";
+
+        const tH = document.getElementById("transactionHistoryone");
+        tH.style.display = "block";
+
+
+    }
+
+    function btn01() {
+    
+        const musicCha = document.getElementById("musicChartContainer");
+        musicCha.style.display = "block";
+
+        const tH = document.getElementById("transactionHistoryone");
+        tH.style.display = "none";
+    }
+
+
     return (
         <>
             <div className="transaction-header-container">
@@ -14,7 +34,7 @@ const Main = () => {
                 <div className="base2">
                     <div className="phone-ui">
                         <div className="slide-container">
-                        <div className="fund-balance">
+                        <div className="fund-balance" id="f1">
                             <p className="ab">Account Balance</p>
                             <p className="amount">$50,000</p>
                             <p className="acc-num">Account no: <span className="acc-number">6156738012</span></p>
@@ -25,17 +45,7 @@ const Main = () => {
                         </div>
                         
 
-                            {/* slide 2*/}
-                            <div className="slide-2" id="slide-2">
-                               <p className="ab">Account Balance</p>
-                               <p className="amount">$50,000</p>
-                               <p className="acc-num">Account no: <span className="acc-number">6156738012</span></p>
-                               <div className="buttons">
-                                  <button className="add-money"><img src="https://img.icons8.com/material-outlined/20/ffffff/add.png" alt="" />&nbsp;Add money</button>
-                                  <button className="send-money"><img src="https://img.icons8.com/material-outlined/20/ffffff/filled-sent.png" alt=""/>&nbsp;Send money</button>
-                               </div>
-                            </div>
-
+                        
                              {/* slide 3*/}
                              <div className="slide-3">
                                <p className="ab">Account Balance</p>
@@ -50,12 +60,12 @@ const Main = () => {
 
                             </div>
                         <div className="dot-container">
-                            <div className="dot1"></div>
-                            <div className="dot1"></div>
+                            <div className="dot1" onClick={btn01}></div>
+                            <div className="dot1" onClick={sayHello}></div>
                             <div className="dot1"></div>
                         </div>
 
-                        <div className="musicChartContainer">
+                        <div className="musicChartContainer" id="musicChartContainer">
                             <h1 className="MC">Music Chart</h1>
                             <div className="m1">
                                 <div className="songImage"></div>
@@ -167,6 +177,78 @@ const Main = () => {
                                     </div></div>   
                             </div>
                         </div>
+
+                         
+                         <div className="transactionHistoryone" id="transactionHistoryone">
+                             <div className="transHeaderr">
+                                 <p className="thp">Transactions</p>
+                                 <p className="thp2">View all</p>
+                             </div>
+                             <div className="transMadeContainer">
+                                <div className="transMade">
+                                    <div className="imgg">
+                                    <img src="https://img.icons8.com/color/48/000000/transaction.png" alt=""/>
+                                    </div>
+                                   <div className="transId">
+                                      <div>
+                                         <div className="ids">ID-00001</div>
+                                         <div className="date">December 27, 09:47 AM</div>
+                                      </div>
+                                   </div>
+                                   <p className="transAmount">$7,000</p>
+                                </div>
+                                <div className="transMade">
+                                <div className="imgg">
+                                    <img src="https://img.icons8.com/color/48/000000/transaction.png" alt=""/>
+                                    </div>
+                                   <div className="transId">
+                                      <div>
+                                         <div className="ids">ID-00002</div>
+                                         <div className="date">july 1, 12:01 PM</div>
+                                      </div>
+                                   </div>
+                                   <p className="transAmount">$50,000</p>
+                                </div>
+                                <div className="transMade">
+                                <div className="imgg">
+                                    <img src="https://img.icons8.com/color/48/000000/transaction.png" alt=""/>
+                                    </div>
+                                   <div className="transId">
+                                      <div>
+                                         <div className="ids">ID-00003</div>
+                                         <div className="date">september 17, 9:09 AM</div>
+                                      </div>
+                                   </div>
+                                   <p className="transAmount">$100</p>
+                                </div>
+                                <div className="transMade">
+                                <div className="imgg">
+                                    <img src="https://img.icons8.com/color/48/000000/transaction.png" alt=""/>
+                                    </div>
+                                   <div className="transId">
+                                      <div>
+                                         <div className="ids">ID-00004</div>
+                                         <div className="date">April 15, 1:06 PM</div>
+                                      </div>
+                                   </div>
+                                   <p className="transAmount">$105,000,000</p>
+                                </div>
+                                <div className="transMade">
+                                <div className="imgg">
+                                    <img src="https://img.icons8.com/color/48/000000/transaction.png" alt=""/>
+                                    </div>
+                                   <div className="transId">
+                                      <div>
+                                         <div className="ids">ID-00005</div>
+                                         <div className="date">february 8, 19:32 AM</div>
+                                      </div>
+                                   </div>
+                                   <p className="transAmount">$4,000,000</p>
+                                </div>
+                            </div>
+                         </div>
+
+
 
                         </div>
                        
