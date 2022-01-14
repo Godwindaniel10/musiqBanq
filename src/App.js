@@ -2,14 +2,14 @@
 import React, {Fragment} from 'react';
 import Signup from "./components/Signup"
 import Main from "./components/Main"
-import { Container } from "react-bootstrap"
+
 import { AuthProvider } from "./contexts/AuthContext"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Dashboard from "./components/Dashboard"
 import Login from "./components/Login"
-import PrivateRoute from './components/PrivateRoute'
+
 import ForgotPassword from "./components/ForgotPassword"
-import UpdateProfile from "./components/UpdateProfile"
+
 import LandingPage from "./components/LandingPage"
 import './App.css';
 
@@ -29,6 +29,7 @@ function App() {
               <Route path="/login" element={<Login/>} />
               <Route path="/forgot-password" element={<ForgotPassword/>} />
               <Route path="/main" element={<Main/>} />
+
             </Routes>
           </AuthProvider>
         </Router>
