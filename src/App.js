@@ -23,12 +23,12 @@ function App() {
         <Router>
           <AuthProvider>
             <Routes>
-              <Route exact path='/' element={<Dashboard/>} />
+              <Route exact path='/' element={<LandingPage/>} />
+              <Route path='/dashboard' element={<Dashboard/>} />
               <Route path="/signup" element={<Signup/>} />
               <Route path="/login" element={<Login/>} />
               <Route path="/forgot-password" element={<ForgotPassword/>} />
               <Route path="/main" element={<Main/>} />
-              <Route path="/LandingPage" element={<LandingPage/>} />
             </Routes>
           </AuthProvider>
         </Router>
