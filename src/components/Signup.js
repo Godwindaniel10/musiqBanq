@@ -36,10 +36,11 @@ export default function Signup() {
  
 
   return (
-    <>
-      <Card>
+    <div className="sContainer">
+      <div>
+      <div className="cardi">
         <Card.Body>
-          <h2 className="text-center mb-4">Sign Up</h2>
+          <h2 className="text-center mb-4 fs-10 ">Sign Up</h2>
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
@@ -55,15 +56,17 @@ export default function Signup() {
               <Form.Control type="password" ref={passwordConfirmRef} required />
             </Form.Group>
             <br/>
-            <Button disabled={loading} className="w-100" type="submit">
+            <button disabled={loading} className="w-100 sBtn" type="submit">
               Sign Up
-            </Button>
+            </button>
           </Form>
         </Card.Body>
-      </Card>
+      </div>
       <div className="w-100 text-center mt-2">
         Already have an account? <Link to="/login">Login</Link>
       </div>
-    </>
+      </div>
+
+    </div>
   )
 }

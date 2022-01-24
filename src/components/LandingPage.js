@@ -47,9 +47,9 @@ const LandingPage = () => {
                     <div className="z2">
                         
                     </div>
-                    <div className="z3">
+                    {/*<div className="z3">
                     <div className="pattern3"></div>
-                    </div>
+    </div>*/}
                 </div>
             </div>
         </>

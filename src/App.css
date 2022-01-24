@@ -374,7 +374,14 @@ background-image: linear-gradient( to right,
   width: 100%;
   height: 120vh;
   padding: 0 120px;
-  background: #FFF1AF;
+  background-image:
+  linear-gradient(
+    #fff2afa9, 
+    #fff2afd5
+    ), url(./images/ladingPageImg2.jpg);
+  background-position: center;
+  background-size: cover;
+  /*background: #FFF1AF;*/
 }
 .navBarContainer {
   width: 100%;
@@ -414,7 +421,7 @@ background-image: linear-gradient( to right,
   height: 80vh;
   margin-top: 5rem;
   display: grid;
-  grid-template-columns: 1fr 0.6fr 0.4fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
 }
 .mainPageContainer .z1 {
@@ -425,22 +432,22 @@ background-image: linear-gradient( to right,
 .mainPageContainer .z2 {
   width: 100%;
   height: 550px;
-  border-radius: 200px;
-  background-image: url(./images/pic4.jpg);
+  
+  background-image: url(./images/IMG-20211220-WA0054-removebg-preview.png);
   background-position: center;
   background-size: cover;
-  border: 10px solid #AE431E;
   position: relative;
 }
 .mainPageContainer .z3 {
   width: 100%;
   height: 550px;
   border-radius: 200px;
-  background-image: url(./images/pic5.jpg);
+  background-image: url(./images/pic6-removebg-preview.png);
   background-position: center;
   background-size: cover;
   border: 10px solid #AE431E;
   position: relative;
+  display: none;
 }
 
 
@@ -486,7 +493,7 @@ background-image: linear-gradient( to right,
   margin-bottom: 3rem;
   font-weight: bold;
   font-size: 20px;
-  color: rgb(100, 100, 100); 
+  color: rgb(34, 34, 34); 
 }
 .secLineText .zero {
   margin-right: 0.5rem;
@@ -865,10 +872,37 @@ background-image: linear-gradient( to right,
 }
 
 
+/* sign up */
+
+.cardi {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 360px;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 6rem auto 0 auto;
+}
+.sBtn {
+  background: #1C7947;
+  padding: 10px 0;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+}
+
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .sContainer {
+    padding: 0 30px;
+  }
+  .cardi {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 6rem auto 0 auto;
+  }
 
   .landingPageContainer {
     width: 100%;
