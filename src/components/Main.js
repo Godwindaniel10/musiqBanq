@@ -61,7 +61,7 @@ const Main = () => {
                             </div>
                         <div className="dot-container">
                             <div className="dot1" onClick={btn01}></div>
-                            <div className="dot1" onClick={sayHello}></div>
+                            <div className="dot2" onClick={sayHello}>Transactions</div>
                             <div className="dot1"></div>
                         </div>
 
@@ -249,12 +249,15 @@ const Main = () => {
                          </div>
 
 
-
+                         <footer className="mainFooter"></footer>
                         </div>
                        
                        
                       
                     </div>
+
+
+                    
                 </div>
                 
         </>
