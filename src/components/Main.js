@@ -60,9 +60,9 @@ const Main = () => {
 
                             </div>
                         <div className="dot-container">
-                            <div className="dot1" onClick={btn01}></div>
-                            <div className="dot2" onClick={sayHello}>Transactions</div>
-                            <div className="dot1"></div>
+                            <div className="dot1" onClick={btn01}><img src="https://img.icons8.com/fluency/30/000000/home.png" alt=""/></div>
+                            <div className="dot2" onClick={sayHello}><img src="https://img.icons8.com/external-prettycons-flat-prettycons/30/000000/external-transaction-business-and-finance-prettycons-flat-prettycons.png" alt=""/></div>
+                        
                         </div>
 
                         <div className="musicChartContainer" id="musicChartContainer">
