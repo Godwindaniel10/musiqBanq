@@ -3,7 +3,7 @@ import React, {Fragment} from 'react';
 import Signup from "./components/Signup"
 import Main from "./components/Main"
 import { AuthProvider } from "./contexts/AuthContext"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Link, BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Dashboard from "./components/Dashboard"
 import Login from "./components/Login"
 import ForgotPassword from "./components/ForgotPassword"
@@ -35,6 +35,10 @@ function App() {
             </Routes>
           </AuthProvider>
         </Router>
+         <Link to="/dashboard"> Dashboard </Link>
+          <br />
+          <Link to="/main"> Main </Link>
+          <br />
 
          {/*<Container
       className="d-flex align-items-center justify-content-center"
