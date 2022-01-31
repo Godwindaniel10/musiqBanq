@@ -8,7 +8,10 @@ const Admin = () => {
                 <div className="a3">
                     <div className="adminName"><img src="https://img.icons8.com/external-itim2101-blue-itim2101/40/000000/external-admin-devices-service-itim2101-blue-itim2101.png" alt=""/>&nbsp;&nbsp;Godwin Olele</div>
                     <div className="cardNbtn">
-                      <div className="adminCard"></div>
+                      <div className="adminCard">
+                          <div className='myPort'>My Portfolio</div>
+                          <div className='portAmount'>$150,000.00</div>
+                      </div>
                       <div className="adminBtnContainer">
                           <button className="deposit">Deposit</button>
                           <button className="withdraw">Withdraw</button>

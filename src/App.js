@@ -35,10 +35,10 @@ function App() {
             </Routes>
           </AuthProvider>
         </Router>
-         <Link to="/dashboard"> Dashboard </Link>
+         {/*<Link to="/dashboard"> Dashboard </Link>
           <br />
           <Link to="/main"> Main </Link>
-          <br />
+  <br />*/}
 
          {/*<Container
       className="d-flex align-items-center justify-content-center"

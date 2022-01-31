@@ -957,6 +957,21 @@ background-image: linear-gradient( to right,
   background: url("https://freerangestock.com/sample/135412/abstract-background-in-blue.jpg");
   background-position: center;
   background-size: cover;
+  padding: 15px 20px;
+}
+.adminComtainer .a3 .adminCard .myPort {
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+.adminComtainer .a3 .adminCard .portAmount {
+  font-size: 25px;
+  color: #fff;
+  margin-top: 1rem;
+  font-weight: bolder;
+  font-family: 'Chakra Petch', sans-serif;
+  letter-spacing: 4px;
 }
 .adminComtainer .a3 .adminBtnContainer {
   width: 250px;
