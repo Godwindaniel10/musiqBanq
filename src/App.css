@@ -911,6 +911,128 @@ background-image: linear-gradient( to right,
 }
 
 
+/* admin */
+.adminComtainer {
+  background: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminComtainer .a1 {
+  border-right: 1px solid rgba(155, 155, 155, 0.281);
+  width: 130px;
+  height: 100vh;
+}
+.adminComtainer .a2 {
+  width: 100%;
+  height: 100vh;
+}
+.adminComtainer .a3 {
+  width: 600px;
+  height: 100vh;
+  background: #16615b13;
+  padding: 30px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+.adminComtainer .a3 .adminName {
+  width: 100%;
+  height: auto;
+  font-weight: bolder;
+  font-size: 19px;
+  font-family: 'Nunito', sans-serif;
+}
+.adminComtainer .a3 .cardNbtn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.adminComtainer .a3 .adminCard {
+  background: #4b00d6;
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 4rem;
+  background: url("https://freerangestock.com/sample/135412/abstract-background-in-blue.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.adminComtainer .a3 .adminBtnContainer {
+  width: 250px;
+  height: 70px;
+  position: absolute;
+  top: 11rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a3 .adminBtnContainer .deposit {
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: #000;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 110px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.adminComtainer .a3 .adminBtnContainer .withdraw {
+  border: none;
+  outline: none;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: #000;
+  font-size: 15px;
+  font-weight: bolder;
+  width: 110px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.adminComtainer .a3 .topSongContainer {
+  width: 100%;
+  height: 230px;
+  margin-top: 5rem;
+}
+.adminComtainer .a3 .topSongContainer .tsText {
+  font-weight: 900;
+  font-size: 15px;
+}
+.adminComtainer .a3 .topSongContainer .bb {
+  color: rgb(163, 163, 163);
+  font-weight: bolder;
+}
+.adminComtainer .a3 .topSong {
+  width: 100%;
+  height: 190px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
