@@ -915,23 +915,92 @@ background-image: linear-gradient( to right,
 .adminComtainer {
   background: #fff;
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+
 }
 .adminComtainer .a1 {
   border-right: 1px solid rgba(155, 155, 155, 0.281);
   width: 130px;
   height: 100vh;
 }
+
+
+/* a2 */
 .adminComtainer .a2 {
   width: 100%;
   height: 100vh;
 }
+.adminComtainer .a2 .topZone {
+  border: 2px solid #000;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userSearchBox {
+   width: 280px;
+   border-radius: 7px 0 0 7px;
+   background: rgb(235, 235, 235);
+   border: none;
+   padding: 8px 15px;
+   color: #000;
+   outline: none;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .submitSearchBtn {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 0 7px 7px 0;
+  background: #0024F1;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName .userImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: url(./images/pic5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName .userName {
+  width: 280px;
+  height: auto;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.adminComtainer .a2 .topZone .userEarningAndCard {
+  border: 2px solid rgb(255, 0, 0);
+  width: 100%;
+  height: 200px;
+  margin-top: 3rem;
+}
+
+/* bottom zone */
+.adminComtainer .a2 .bottomZone {
+  border: 2px solid rgb(255, 0, 0);
+  width: 100%;
+  height: 400px;
+}
+
+
+/* a3 */
 .adminComtainer .a3 {
   width: 600px;
-  height: 100vh;
+  height: auto;
   background: #16615b13;
   padding: 30px;
 }
@@ -954,7 +1023,7 @@ background-image: linear-gradient( to right,
   height: 150px;
   border-radius: 10px;
   margin-top: 4rem;
-  background: url("https://freerangestock.com/sample/135412/abstract-background-in-blue.jpg");
+  background: url(./images/abstract-background-in-blue.jpg);
   background-position: center;
   background-size: cover;
   padding: 15px 20px;
@@ -1026,6 +1095,91 @@ background-image: linear-gradient( to right,
   border-radius: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.adminComtainer .a3 .trans {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 1rem;
+  padding: 20px;
+}
+.adminComtainer .a3 .transHeader {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+.adminComtainer .a3 .transHeader .t {
+  font-weight: bolder;
+}
+.adminComtainer .a3 .transHeader .s {
+  font-weight: bolder;
+  color: #5800FF;
+  border-bottom:  2px solid #5800FF;
+  padding-bottom: 5px;
+}
+.adminComtainer .a3 .trans .transMadeContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.adminComtainer .a3 .trans .transMade {
+  width: 100%;
+  height: 70px;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 0.2fr 1.5fr 0.7fr;
+  grid-gap: 15px;
+}
+.adminComtainer .a3 .trans .transMade .imgg {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.adminComtainer .a3 .trans .transMade .transId {
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.adminComtainer .a3 .trans .transMade .transId .ids {
+  font-size: 13px;
+  font-weight: 900;
+}
+.adminComtainer .a3 .trans .transMade .transId .date{
+  font-size: 11.5px;
+  font-weight: 900;
+  color: #999;
+}
+.adminComtainer .a3 .trans .transMade .transAmount {
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  font-size: 11.5px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+}
+.adminComtainer .a3 .trans .transHeaderr {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a3 .trans .transHeaderr p {
+  font-weight: bold;
+}
+.adminComtainer .a3 .trans .transHeaderr .thp {
+  color: rgb(66, 66, 66);
+}
+.adminComtainer .a3 .trans .transHeaderr .thp2 {
+  border-bottom: 1px solid #000;
+}
+
 
 
 
