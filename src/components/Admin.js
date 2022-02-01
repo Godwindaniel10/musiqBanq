@@ -17,9 +17,39 @@ const Admin = () => {
                          </form>
                        </div>
                        <div className="userEarningAndCard">
-                          <div className="totalEarning"></div>
-                          <div className="userCard"></div>
-                          <div className="c-Or-d-Btn"></div>
+                          <div className="totalEarning">
+                             <div className="totalEarningImg"><img src="https://img.icons8.com/external-flat-02-chattapat-/35/000000/external-carryingmoney-money-flat-02-chattapat-.png" alt=""/></div>
+                             <div>
+                                <div className="totalEarningHeader">Total earnings</div>
+                                <div className="totalEarningNum">$25,750.00</div>
+                             </div>
+                          </div>
+                          <div className="userCard">
+                             <div className="userCardNameAndType">
+                                <div className="cardName">
+                                   <span className="cName">Card Name</span>
+                                   <div className="name">Godwin Olele</div>
+                                </div>
+                                <div className="cardType">Debit</div>
+                             </div>
+                             <div className="cardNum">**** &nbsp;&nbsp;**** &nbsp;&nbsp;**** &nbsp;&nbsp;1234</div>
+                             <div className="expAndcvv">
+                                <div className="exp">
+                                   <span className="expDateHeader">Exp date</span>
+                                   <div className="expDate">09 / 24</div>
+                                </div>
+                                <div className="cvv">
+                                   <span className="cvvHeader">cvv number</span>
+                                   <div className="cvvNum">988</div>
+                                </div>
+                             </div>
+                          </div>
+                          <div className="c-Or-d-Btn">
+                            <div>
+                              <button className="userCreditBtn">Add Money</button><br/>
+                              <button className="userdebitBtn">Deduct Money</button>
+                            </div>
+                          </div>
                        </div>
                     </div>
                     <div className="bottomZone"></div>
