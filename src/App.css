@@ -945,22 +945,7 @@ background-image: linear-gradient( to right,
   justify-content: space-between;
   align-items: center;
 }
-.adminComtainer .a2 .topZone .userNameAndSearchBar .userSearchBox {
-   width: 280px;
-   border-radius: 7px 0 0 7px;
-   background: rgb(235, 235, 235);
-   border: none;
-   padding: 8px 15px;
-   color: #000;
-   outline: none;
-}
-.adminComtainer .a2 .topZone .userNameAndSearchBar .submitSearchBtn {
-  padding: 8px 10px;
-  border: none;
-  outline: none;
-  border-radius: 0 7px 7px 0;
-  background: #0024F1;
-}
+
 .adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName {
   width: 350px;
   height: 50px;
@@ -1122,9 +1107,41 @@ background-image: linear-gradient( to right,
 
 /* bottom zone */
 .adminComtainer .a2 .bottomZone {
-  /*border: 2px solid rgb(255, 0, 0);*/
+  border: 2px solid rgb(255, 0, 0);
   width: 100%;
   height: 400px;
+  padding: 30px;
+}
+.adminComtainer .a2 .bottomZone .allUser{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a2 .bottomZone .allUser .allUserText {
+  font-weight: bolder;
+  font-size: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(58, 58, 58, 0.637);
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+.adminComtainer .a2 .bottomZone .userSearchBox {
+  width: 280px;
+  border-radius: 7px 0 0 7px;
+  background: rgb(235, 235, 235);
+  border: none;
+  padding: 8px 15px;
+  color: #000;
+  outline: none;
+}
+.adminComtainer .a2 .bottomZone .submitSearchBtn {
+ padding: 8px 10px;
+ border: none;
+ outline: none;
+ border-radius: 0 7px 7px 0;
+ background: #0024F1;
 }
 
 

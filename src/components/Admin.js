@@ -11,10 +11,7 @@ const Admin = () => {
                              <div className="userImg"></div>
                              <div className="userName">Godwin Daniel Olele</div>
                           </div>
-                         <form>
-                            <input type="search" name="search" id="search" placeholder='Search user...' className="userSearchBox" />
-                            <button type="submit" className="submitSearchBtn"><img src="https://img.icons8.com/officel/20/ffffff/search-client.png" alt=""/></button>
-                         </form>
+                        
                        </div>
                        <div className="userEarningAndCard">
                           <div className="totalEarning">
@@ -52,7 +49,15 @@ const Admin = () => {
                           </div>
                        </div>
                     </div>
-                    <div className="bottomZone"></div>
+                    <div className="bottomZone">
+                       <div className="allUser">
+                          <div className="allUserText">All User's</div>
+                          <form>
+                            <input type="search" name="search" id="search" placeholder='Search user...' className="userSearchBox" />
+                            <button type="submit" className="submitSearchBtn"><img src="https://img.icons8.com/officel/20/ffffff/search-client.png" alt=""/></button>
+                         </form>
+                       </div>
+                    </div>
                 </div>
                 <div className="a3">
                     <div className="adminName"><img src="https://img.icons8.com/external-itim2101-blue-itim2101/40/000000/external-admin-devices-service-itim2101-blue-itim2101.png" alt=""/>&nbsp;&nbsp;Godwin Olele</div>
