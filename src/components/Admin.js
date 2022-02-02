@@ -57,6 +57,44 @@ const Admin = () => {
                             <button type="submit" className="submitSearchBtn"><img src="https://img.icons8.com/officel/20/ffffff/search-client.png" alt=""/></button>
                          </form>
                        </div>
+                       <div className="userS">
+                          <div className="userProf">
+                             <div className="usersImg"></div>
+                             <div className="usersName">Oluyomi Kunle adebayo</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Chigga Clement</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Lawal Adeyemi coker</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Friday Mercy</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Justina Fred</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Kunle Poli</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Bisoye Lateef</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">John Doe</div>
+                          </div>
+                          <div className="userProf">
+                          <div className="usersImg"></div>
+                             <div className="usersName">Mark Tyson</div>
+                          </div>
+                       </div>
                     </div>
                 </div>
                 <div className="a3">
