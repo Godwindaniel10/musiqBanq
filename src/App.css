@@ -931,7 +931,6 @@ background-image: linear-gradient( to right,
 .adminComtainer .a2 {
   width: 100%;
   height: auto;
-  border: 2px solid red;
 }
 .adminComtainer .a2 .topZone {
   border-bottom: 1px solid rgba(202, 202, 202, 0.281);
@@ -1108,9 +1107,8 @@ background-image: linear-gradient( to right,
 
 /* bottom zone */
 .adminComtainer .a2 .bottomZone {
-  /*border: 2px solid rgb(255, 0, 0);*/
   width: 100%;
-  height: 400px;
+  height: auto;
   padding: 30px;
 }
 .adminComtainer .a2 .bottomZone .allUser{
@@ -1171,6 +1169,32 @@ background-image: linear-gradient( to right,
   font-size: 16px;
   font-weight: bold;
   margin-top: 1rem;
+}
+.adminComtainer .a2 .bottomZone .next-or-prev-btn {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.adminComtainer .a2 .bottomZone .next-or-prev-btn .prev-btn {
+  cursor: pointer;
+}
+.adminComtainer .a2 .bottomZone .next-or-prev-btn .next-btn {
+  cursor: pointer;
+}
+.adminComtainer .a2 .bottomZone .adminDescription {
+  width: 100%;
+  height: auto;
+  margin-top: 6rem;
+  font-size: 15px;
+  color: rgb(122, 122, 122);
+  letter-spacing: 1.5px;
+}
+.adminComtainer .a2 .bottomZone .adminDescription span {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: red;
 }
 
 

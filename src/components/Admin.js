@@ -95,6 +95,11 @@ const Admin = () => {
                              <div className="usersName">Mark Tyson</div>
                           </div>
                        </div>
+                       <div className="next-or-prev-btn">
+                          <div className="prev-btn"><img src="https://img.icons8.com/dusk/64/000000/previous.png" alt=""/></div>
+                          <div className="next-btn"><img src="https://img.icons8.com/dusk/64/000000/next.png" alt=""/></div>
+                       </div>
+                       <div className="adminDescription"><span>Instruction:</span> &nbsp;&nbsp;Click each user box to view more details.</div>
                     </div>
                 </div>
                 <div className="a3">
