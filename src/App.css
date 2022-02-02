@@ -923,7 +923,22 @@ background-image: linear-gradient( to right,
 .adminComtainer .a1 {
   border-right: 1px solid rgba(133, 133, 133, 0.452);
   width: 130px;
-  height: 100vh;
+  height: 150vh;
+  padding: 20px;
+}
+.adminComtainer .a1 .adminLogo {
+  background: #0016BA;
+  text-align: center;
+  font-size: 22px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  font-family: 'Emblema One', cursive;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 35px -5px;
 }
 
 
@@ -1009,6 +1024,7 @@ background-image: linear-gradient( to right,
   background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 .adminComtainer .a2 .topZone .userEarningAndCard .userCard .userCardNameAndType {
   /*border: 2px solid rgb(255, 230, 0);*/

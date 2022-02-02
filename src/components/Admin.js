@@ -3,7 +3,9 @@ import React from 'react';
 const Admin = () => {
   return <>
             <div className="adminComtainer">
-                <div className="a1"></div>
+                <div className="a1">
+                   <div className="adminLogo">MB</div>
+                </div>
                 <div className="a2">
                     <div className="topZone">
                        <div className="userNameAndSearchBar">
