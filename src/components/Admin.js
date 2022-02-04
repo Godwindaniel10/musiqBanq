@@ -10,6 +10,12 @@ const Admin = () => {
       const a3 = document.getElementById("a3");
       a3.style.display = "none";
 
+      const userProfileClick = document.getElementById("topZone");
+      userProfileClick.style.display = "none";
+
+      const bottomZone = document.getElementById("bottomZone");
+   bottomZone.style.display = "block";
+
   }
 
   function userClick() {
@@ -19,6 +25,15 @@ const Admin = () => {
 
    const bottomZone = document.getElementById("bottomZone");
    bottomZone.style.display = "none";
+
+}
+function homeBtnClick() {
+
+   const a3 = document.getElementById("a3");
+      a3.style.display = "block";
+
+   const userMobileBtnClick = document.getElementById("a2");
+      userMobileBtnClick.style.display = "none";
 
 }
 
@@ -32,6 +47,7 @@ const Admin = () => {
                 </div>
                 <div className="a2" id="a2">
                     <div className="topZone" id="topZone">
+                    <div className="homeBtnMobile" onClick={homeBtnClick}><img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/40/000000/external-home-essentials-icongeek26-linear-colour-icongeek26.png" alt=""/></div>
                        <div className="userNameAndSearchBar">
                           <div className="userImgAndName">
                              <div className="userImg"></div>
@@ -76,6 +92,7 @@ const Admin = () => {
                        </div>
                     </div>
                     <div className="bottomZone" id="bottomZone">
+                       <div className="homeBtnMobile" onClick={homeBtnClick}><img src="https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/40/000000/external-home-essentials-icongeek26-linear-colour-icongeek26.png" alt=""/></div>
                        <div className="allUser">
                           <div className="allUserText">All User's</div>
                           <form>

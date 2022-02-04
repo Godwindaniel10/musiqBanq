@@ -971,6 +971,9 @@ background-image: linear-gradient( to right,
   justify-content: space-between;
   align-items: center;
 }
+.adminComtainer .a2 .topZone .homeBtnMobile{
+  display: none;
+}
 
 .adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName {
   width: 350px;
@@ -1839,7 +1842,27 @@ background-image: linear-gradient( to right,
   padding: 20px;
   border: none;
 }
+.adminComtainer .a2 .topZone .homeBtnMobile{
+  cursor: pointer;
+  text-align: right;
+  display: block;
+}
+.adminComtainer .a2 .bottomZone .homeBtnMobile {
+  cursor: pointer;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+}
+.adminComtainer .a2 .bottomZone .allUser{
+  margin-top: 3rem;
+}
 /* bottom zone */
+
 .adminComtainer .a2 .bottomZone {
   width: 100%;
   height: auto;
