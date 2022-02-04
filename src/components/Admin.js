@@ -12,6 +12,16 @@ const Admin = () => {
 
   }
 
+  function userClick() {
+
+   const userProfileClick = document.getElementById("topZone");
+   userProfileClick.style.display = "block";
+
+   const bottomZone = document.getElementById("bottomZone");
+   bottomZone.style.display = "none";
+
+}
+
   return <>
             <div className="adminComtainer">
             
@@ -21,7 +31,7 @@ const Admin = () => {
                    <div className="transactionIcon"><img src="https://img.icons8.com/pastel-glyph/25/949494/transaction-list--v4.png" alt=""/></div>
                 </div>
                 <div className="a2" id="a2">
-                    <div className="topZone">
+                    <div className="topZone" id="topZone">
                        <div className="userNameAndSearchBar">
                           <div className="userImgAndName">
                              <div className="userImg"></div>
@@ -65,7 +75,7 @@ const Admin = () => {
                           </div>
                        </div>
                     </div>
-                    <div className="bottomZone">
+                    <div className="bottomZone" id="bottomZone">
                        <div className="allUser">
                           <div className="allUserText">All User's</div>
                           <form>
@@ -74,11 +84,11 @@ const Admin = () => {
                          </form>
                        </div>
                        <div className="userS">
-                          <div className="userProf">
+                          <div className="userProf" onClick={userClick}>
                              <div className="usersImg"></div>
                              <div className="usersName">Oluyomi Kunle adebayo</div>
                           </div>
-                          <div className="userProf">
+                          <div className="userProf" onClick={userClick}>
                           <div className="usersImg"></div>
                              <div className="usersName">Chigga Clement</div>
                           </div>

@@ -1186,6 +1186,7 @@ background-image: linear-gradient( to right,
   text-align: center;
   padding: 20px;
   border-radius: 20px;
+  cursor: pointer;
 }
 .adminComtainer .a2 .bottomZone .userS .userProf .usersImg{
   background: url("https://images.pexels.com/photos/1300402/pexels-photo-1300402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
@@ -1792,7 +1793,7 @@ background-image: linear-gradient( to right,
 .adminComtainer {
   background: #fff;
   width: 100%;
-  height: auto;
+  height: 150vh;
   display: flex;
   justify-content: center;
 }
@@ -1835,6 +1836,8 @@ background-image: linear-gradient( to right,
 }
 .adminComtainer .a2 .topZone {
   display: none;
+  padding: 20px;
+  border: none;
 }
 /* bottom zone */
 .adminComtainer .a2 .bottomZone {
@@ -1853,6 +1856,42 @@ background-image: linear-gradient( to right,
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName .userName {
+  width: 250px;
+  font-size: 17px;
+}
+.adminComtainer .a2 .topZone .userEarningAndCard {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  display: block;
+}
+.adminComtainer .a2 .topZone .userEarningAndCard .userCard {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  /*background: url("./images/design11-01_generated.jpg");
+  background-size: cover;
+  background-position: center;*/
+  background: #D1913C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.adminComtainer .a2 .topZone .userEarningAndCard .c-Or-d-Btn {
+  width: 100%;
+  height: 200px;
+  text-align: center;
 }
 
 
