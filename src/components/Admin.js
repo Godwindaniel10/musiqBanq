@@ -1,12 +1,26 @@
 import React from 'react';
 
 const Admin = () => {
+
+   function userMobileBtnClick() {
+
+      const userMobileBtnClick = document.getElementById("a2");
+      userMobileBtnClick.style.display = "block";
+
+      const a3 = document.getElementById("a3");
+      a3.style.display = "none";
+
+  }
+
   return <>
             <div className="adminComtainer">
+            
                 <div className="a1">
                    <div className="adminLogo">MB</div>
+                   <div className="homeIcon"><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/25/949494/external-home-multimedia-kiranshastry-lineal-kiranshastry.png" alt=""/></div>
+                   <div className="transactionIcon"><img src="https://img.icons8.com/pastel-glyph/25/949494/transaction-list--v4.png" alt=""/></div>
                 </div>
-                <div className="a2">
+                <div className="a2" id="a2">
                     <div className="topZone">
                        <div className="userNameAndSearchBar">
                           <div className="userImgAndName">
@@ -104,16 +118,23 @@ const Admin = () => {
                        <div className="adminDescription"><span>Instruction:</span> &nbsp;&nbsp;Click each user box to view more details.</div>
                     </div>
                 </div>
-                <div className="a3">
-                    <div className="adminName"><img src="https://img.icons8.com/external-itim2101-blue-itim2101/40/000000/external-admin-devices-service-itim2101-blue-itim2101.png" alt=""/>&nbsp;&nbsp;Godwin Olele</div>
+                <div className="a3" id="a3">
+                    <div className="adminNameAndHamburgerMenu">
+                       <div className="adminName"><img src="https://img.icons8.com/external-itim2101-blue-itim2101/40/000000/external-admin-devices-service-itim2101-blue-itim2101.png" alt=""/>&nbsp;&nbsp;Godwin Olele</div>
+                       <div className="mobilePageBtn">
+                          <div className="transactionBtnMobile"><img src="https://img.icons8.com/cotton/30/000000/transaction-list--v4.png" alt=""/></div>
+                          <div className="usersBtnMobile" id="usersBtnMobile" onClick={userMobileBtnClick}><img src="https://img.icons8.com/bubbles/50/000000/user-group-woman-woman.png" alt=""/></div>
+                       </div>
+                    </div>
+            
                     <div className="cardNbtn">
                       <div className="adminCard">
                           <div className='myPort'>My Portfolio</div>
                           <div className='portAmount'>$150,000.00</div>
                       </div>
                       <div className="adminBtnContainer">
-                          <button className="deposit">Deposit</button>
-                          <button className="withdraw">Withdraw</button>
+                          <button className="deposit"><img src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/20/000000/external-money-economy-kmg-design-detailed-outline-kmg-design.png" alt=""/>&nbsp;&nbsp;Deposit</button>
+                          <button className="withdraw"><img src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/17/000000/external-withdraw-money-kmg-design-basic-outline-kmg-design.png" alt=""/>&nbsp;&nbsp;Withdraw</button>
                       </div>
                     </div>
                     <div className="topSongContainer">

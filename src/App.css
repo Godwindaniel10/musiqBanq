@@ -921,7 +921,7 @@ background-image: linear-gradient( to right,
 
 }
 .adminComtainer .a1 {
-  border-right: 1px solid rgba(133, 133, 133, 0.452);
+  border-right: 1px solid rgba(175, 175, 175, 0.233);
   width: 130px;
   height: 150vh;
   padding: 20px;
@@ -939,6 +939,17 @@ background-image: linear-gradient( to right,
   justify-content: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 35px -5px;
+}
+.adminComtainer .a1 .homeIcon {
+  text-align: center;
+  margin-top: 3rem;
+  cursor: pointer;
+  padding: 10px;
+}
+.adminComtainer .a1 .transactionIcon {
+  text-align: center;
+  margin-top: 3rem;
+  cursor: pointer;
 }
 
 
@@ -1111,6 +1122,10 @@ background-image: linear-gradient( to right,
   border-radius: 7px;
   background: #7ECA9C;
 }
+.adminComtainer .a2 .topZone .userEarningAndCard .c-Or-d-Btn .userCreditBtn:hover {
+  background: #63a77e;
+  transition: all 500ms;
+}
 .adminComtainer .a2 .topZone .userEarningAndCard .c-Or-d-Btn .userdebitBtn {
   border: none;
   outline: none;
@@ -1261,7 +1276,7 @@ background-image: linear-gradient( to right,
   letter-spacing: 4px;
 }
 .adminComtainer .a3 .adminBtnContainer {
-  width: 250px;
+  width: 270px;
   height: 70px;
   position: absolute;
   top: 11rem;
@@ -1278,7 +1293,7 @@ background-image: linear-gradient( to right,
   color: #000;
   font-size: 15px;
   font-weight: bolder;
-  width: 110px;
+  width: 120px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .adminComtainer .a3 .adminBtnContainer .withdraw {
@@ -1290,7 +1305,7 @@ background-image: linear-gradient( to right,
   color: #000;
   font-size: 15px;
   font-weight: bolder;
-  width: 110px;
+  width: 120px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .adminComtainer .a3 .topSongContainer {
@@ -1684,6 +1699,12 @@ background-image: linear-gradient( to right,
 
 }
 
+.adminComtainer .a3 .adminNameAndHamburgerMenu .transactionBtnMobile {
+  display: none;
+}
+.adminComtainer .a3 .adminNameAndHamburgerMenu .usersBtnMobile {
+  display: none;
+}
 
 
 
@@ -1760,6 +1781,95 @@ background-image: linear-gradient( to right,
     font-size: 12px;
   }
 }
+
+
+
+/* admin mobile device */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  /* admin */
+.adminComtainer {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.adminComtainer .a1, .adminComtainer .a2 {
+  display: none;
+}
+.adminComtainer .a3 {
+  width: 100%;
+  padding: 20px;
+}
+.adminComtainer .a3 .adminNameAndHamburgerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a3 .adminNameAndHamburgerMenu .adminName {
+  font-size: 17px;
+  margin-right: 1rem;
+}
+.adminComtainer .a3 .adminNameAndHamburgerMenu .mobilePageBtn {
+  width: 150px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.adminComtainer .a3 .adminNameAndHamburgerMenu .transactionBtnMobile {
+  cursor: pointer;
+  display: block;
+}
+.adminComtainer .a3 .adminNameAndHamburgerMenu .usersBtnMobile {
+  cursor: pointer;
+  display: block;
+}
+
+/* a2 */
+.adminComtainer .a2 {
+  width: 100%;
+  height: auto;
+}
+.adminComtainer .a2 .topZone {
+  display: none;
+}
+/* bottom zone */
+.adminComtainer .a2 .bottomZone {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.adminComtainer .a2 .bottomZone .userSearchBox {
+  width: 180px;
+  padding: 8px 15px;
+}
+.adminComtainer .a2 .bottomZone .allUser .allUserText {
+  font-size: 12px;
+}
+.adminComtainer .a2 .bottomZone .userS {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
