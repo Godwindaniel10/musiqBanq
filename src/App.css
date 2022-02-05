@@ -1709,7 +1709,9 @@ background-image: linear-gradient( to right,
 .adminComtainer .a3 .adminNameAndHamburgerMenu .usersBtnMobile {
   display: none;
 }
-
+.adminComtainer .a2 .bottomZone .homeBtnMobile {
+  display: none;
+}
 
 
 
@@ -1849,6 +1851,7 @@ background-image: linear-gradient( to right,
 }
 .adminComtainer .a2 .bottomZone .homeBtnMobile {
   cursor: pointer;
+  display: block;
 }
 .adminComtainer .a2 .topZone .userNameAndSearchBar .userImgAndName {
   width: 350px;
