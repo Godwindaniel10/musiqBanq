@@ -9,6 +9,7 @@ import Login from "./components/Login"
 import ForgotPassword from "./components/ForgotPassword"
 import LandingPage from "./components/LandingPage"
 import Admin from "./components/Admin"
+import UserPage from "./components/userPage"
 import './App.css';
 
 
@@ -31,6 +32,7 @@ function App() {
               <Route path="/forgot-password" element={<ForgotPassword/>} />
               <Route path="/main" element={<Main/>} />
               <Route path="/admin" element={<Admin/>} />
+              <Route path="/userpage" element={<UserPage/>} />
 
             </Routes>
           </AuthProvider>

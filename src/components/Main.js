@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+{/*import UserProfile from "./components/UserProfile"*/}
 
 const Main = () => {
 
@@ -29,7 +30,6 @@ const Main = () => {
         <>
             <div className="transaction-header-container">
             <div className="base1">
-              
             </div>
                 <div className="base2">
                     <div className="phone-ui">
