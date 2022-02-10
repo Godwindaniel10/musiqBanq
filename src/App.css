@@ -1940,8 +1940,9 @@ background-image: linear-gradient( to right,
 @media only screen and (max-width: 600px) {
   .userPageContainer {
     width: 100%;
-    height: 100vh;
+    height: 165vh;
     background: #fff;
+    position: relative;
   }
   .userPageContainer .header {
     width: 100%;
@@ -2020,11 +2021,14 @@ background-image: linear-gradient( to right,
      padding: 0 20px;
    }
   .userPageContainer .albumContainer {
-    /*border: 2px solid #000;*/
     width: 100%;
-    height: auto;
-    margin-top: 1rem;
+    height: 260px;
     padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   .userPageContainer .albumContainer .album {
     width: 280px;
@@ -2037,6 +2041,7 @@ background-image: linear-gradient( to right,
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   }
   .userPageContainer .albumContainer .album .albumImg {
     width: 130px;
@@ -2098,6 +2103,128 @@ background-image: linear-gradient( to right,
     border: none;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   }
+  .userPageContainer .footer {
+    background-color: #03111f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+  }
+  .footerHomeBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;align-items: center;
+    z-index: 1;
+    border: 2px solid #575757;
+    border-radius: 10px;
+    box-shadow: rgba(173, 173, 173, 0.3) 0px 19px 38px, rgba(143, 143, 143, 0.22) 0px 15px 12px;
+  }
+  .userPageContainer .footer .footerAlbumBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;align-items: center;
+    z-index: 1;
+  }.userPageContainer .footer .footerChartBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;align-items: center;
+  }.userPageContainer .footer .footerNewsBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;align-items: center;
+  }
+  .userPageContainer .userPageCardContainer {
+    padding: 0 20px;
+    display: none;
+  } 
+  .userPageContainer .userPageCard {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    background: #D1913C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD194, #D1913C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  .userPageContainer .userPageCard .userCardNameAndType {
+  /*border: 2px solid rgb(255, 230, 0);*/
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userPageContainer .userPageCard .userCardNameAndType .cName {
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+  font-weight: bold;
+}
+.userPageContainer .userPageCard .userCardNameAndType .name {
+  font-weight: bold;
+  font-size: 16px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+.userPageContainer .userPageCard .userCardNameAndType  .cardType {
+  font-family: 'Emblema One', cursive;
+  font-size: 25px;
+}
+.userPageContainer .userPageCard .cardNum {
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: bolder;
+  padding-left: 15px;
+}
+.userPageContainer .userPageCard .expAndcvv {
+  width: 200px;
+  height: auto;
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userPageContainer .userPageCard .expAndcvv .exp{
+  width: 80px;
+  height: auto;
+}
+.userPageContainer .userPageCard .expAndcvv .exp .expDateHeader{
+  color: rgba(87, 87, 87, 0.438);
+  font-size: 11.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.userPageContainer .userPageCard .expAndcvv .exp .expDate{
+  color: rgb(0, 0, 0);
+  font-size: 12.5px;
+  font-weight: bolder;
+}
+.userPageContainer .userPageCard .expAndcvv .cvv{
+  width: 100px;
+  height: auto;
+}
+.userPageContainer .userPageCard .expAndcvv .cvv .cvvHeader{
+  color: rgba(87, 87, 87, 0.438);
+  font-size: 11.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.userPageContainer .userPageCard .expAndcvv .cvv .cvvNum{
+  color: rgb(0, 0, 0);
+  font-size: 12.5px;
+  font-weight: bolder;
+} 
 }
 
 
