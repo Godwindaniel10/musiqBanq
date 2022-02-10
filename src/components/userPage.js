@@ -83,6 +83,168 @@ const userPage = () => {
              <button className="addToChartBtn">Add to chart</button>
             </div>
           </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className="album">
+          <div className="albumImg"></div>
+            <div className="albumNameAndBtns">
+             <div className="albumName">
+                <div className="name">Central Cee</div>
+                <div className="title">Loading</div>
+             </div>
+             <div className="playAndDownloadBtn">
+               <div className="play"><img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-play-call-to-action-bearicons-outline-color-bearicons.png" alt=''/></div>
+               <div className="download">
+                 <img src="https://img.icons8.com/external-bearicons-outline-color-bearicons/20/000000/external-download-call-to-action-bearicons-outline-color-bearicons.png" alt=""/>
+               </div>
+               <div className="moreInfo"><img src="https://img.icons8.com/cotton/20/000000/info--v3.png" alt=""/></div>
+             </div>
+             <button className="addToChartBtn">Add to chart</button>
+            </div>
+          </div>
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <div className="album">
           <div className="albumImg"></div>
@@ -101,7 +263,12 @@ const userPage = () => {
              <button className="addToChartBtn">Add to chart</button>
             </div>
           </div>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div className='addMoreSongContainer'>
+            <div className="addMoreSongBtn"><img src="https://img.icons8.com/ios-filled/30/ffffff/add-song.png" alt=""/></div>
+          </div>
         </div>
+        
         <div className="footer">
           <div className="footerHomeBtn"><img src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/20/ffffff/external-home-multimedia-kiranshastry-lineal-kiranshastry.png" alt=""/></div>
           <div className="footerAlbumBtn"><img src="https://img.icons8.com/ios-filled/22/575757/add-song.png" alt=""/></div>
