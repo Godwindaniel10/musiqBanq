@@ -8,7 +8,7 @@ const LandingPage = () => {
                 <div className="navBarContainer">
                     <div className="logo text-pop-up-bottom ">MusiQBanQ</div>
                     <div>
-                       <Link exact to="/" className="loginButton">Log-in</Link>
+                       <Link exact to="/login" className="loginButton">Log-in</Link>
                        <Link exact to="/" className="signUpButton">Sign up</Link>
                     </div>
                 </div>
@@ -42,7 +42,7 @@ const LandingPage = () => {
   </div>
                         </div>
 
-                        <Link exact to="/" className="signUpButton">Sign up</Link>
+                        <Link exact to="/signup" className="signUpButton">Sign up</Link>
                     </div>
                     <div className="z2">
                         

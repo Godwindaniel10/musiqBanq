@@ -249,7 +249,9 @@ const Main = () => {
                          </div>
 
 
-                         <footer className="mainFooter"></footer>
+                         <footer className="mainFooter">
+                           <Link exact to="/admin" className="mainAdminBtn"></Link>
+                         </footer>
                         </div>
                        
                        
